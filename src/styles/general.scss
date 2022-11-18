@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inizio regole container */
+.m-auto {
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+}
+
+.c-60 {
+    width: 60%;
+}
+
+.c-40 {
+    width: 40%;
+}
+
+/* fine regole container */
+
+/* inizio regole flex */
+
+.d-flex {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+/* fine regole flex */
+
+.v-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* inizio regole di stile */
+
+.bold {
+    font-weight: bold;
+}
+
+.c-blue {
+    color: rgb(34, 138, 224)
+}

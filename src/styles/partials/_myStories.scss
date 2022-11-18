@@ -1,0 +1,10 @@
+@import '../variables.scss';
+
+#stories-container {
+    background-color: $bg1;
+    border: 1px solid $border;
+    padding: 34px;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
