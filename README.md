@@ -15,6 +15,9 @@ Questi componenti si popolano dei dati ricevuti tramite API utilizzando le props
 
 Infine, ho creato alcune funzioni, soprattutto nel componente dei singoli post, per gestire le situazioni richieste dalle milestone.
 
+## Preview
+![Alt text](/public/preview.png "Sito")
+
 <br>
 <br>
 
