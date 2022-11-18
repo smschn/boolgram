@@ -111,8 +111,8 @@ export default {
         }
     },
     mounted() {
-        this.getStories();
         this.showLoadingScreen(this.getPosts);
+        this.showLoadingScreen(this.getStories);
     }
 }
 </script>
