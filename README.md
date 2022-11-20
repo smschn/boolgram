@@ -7,10 +7,13 @@ Progetto realizzato con Vue-cli.
 ## Funzionamento
 
 All'hook mounted vengono fatte due chiamate API per ottenere i dati da stampare in pagina.
-Queste chiamate sono ritardate di 3 secondi tramite l'uso di setTiemout().
+<br>
+Queste chiamate sono ritardate di 3 secondi tramite l'uso di setTimeout().
+<br>
+Durante questi 3 fittizi secondi di attesa viene mostrato un loader.
 
 Nel main ho creato componenti per gestire, in particolare, le singole storie, il singolo post e i singoli suggerimenti.
-
+<br>
 Questi componenti si popolano dei dati ricevuti tramite API utilizzando le props.
 
 Infine, ho creato alcune funzioni, soprattutto nel componente dei singoli post, per gestire le situazioni richieste dalle milestone.
